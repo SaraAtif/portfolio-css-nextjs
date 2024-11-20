@@ -1,0 +1,95 @@
+.project-section{
+    background-color:rgb(175, 217, 233);
+}
+.project-first-div{
+    padding: 96px 20px;
+    margin: auto auto;
+}
+.project-second-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.project-h1{
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 32px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
+.project-maindiv{
+    display: flex;
+    
+}
+.project-div1{
+   padding: 16px;
+   cursor: pointer;
+
+}
+.project-div2{
+    display:flex;
+    position:relative;
+
+} 
+.project-img1{
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid transparent;
+    color: blue;
+    border-radius: 16px;
+}
+.project-div3{
+    padding: 40px 32px;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+
+
+    background-color: aliceblue;
+
+}
+.project-div3:hover{
+    opacity: 1;
+}
+.project-h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 12px;
+}
+.project-para{
+    line-height: 1.625;
+}
+.project-para2{
+    line-height: 1.625;
+    color: blue;
+
+}
+.project-para2:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 1024px) {
+    .project-div1 {
+      width: 33.33%;
+    }
+  }
+  @media only screen and (min-width: 640px) {
+     .project-div1 {
+      width: 50%;
+    } 
+       /* .project-h1{ 
+        font-size:36px;
+        line-height:40px;
+    }   */
+  }
